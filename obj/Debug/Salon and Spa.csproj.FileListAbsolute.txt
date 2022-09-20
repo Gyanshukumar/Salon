@@ -1,0 +1,73 @@
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\Salon and Spa.dll.config
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\Salon and Spa.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\Salon and Spa.pdb
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\csc.exe
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\csc.exe.config
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\csc.rsp
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\csi.exe
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\csi.exe.config
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\csi.rsp
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.AppContext.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Console.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.IO.Compression.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Security.Claims.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.ValueTuple.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\vbc.exe
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\vbc.exe.config
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\vbc.rsp
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\EntityFramework.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\EntityFramework.SqlServer.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Helpers.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Mvc.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Razor.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Webpages.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Webpages.Razor.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\EntityFramework.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\EntityFramework.SqlServer.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Razor.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Webpages.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Webpages.Razor.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Helpers.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\System.Web.Mvc.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\obj\Debug\Salon and Spa.csprojAssemblyReference.cache
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\obj\Debug\Salon and Spa.csproj.CoreCompileInputs.cache
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\obj\Debug\Salon and Spa.csproj.CopyComplete
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\obj\Debug\Salon and Spa.dll
+C:\Users\Gyanshu\source\repos\Salon and Spa\Salon and Spa\obj\Debug\Salon and Spa.pdb

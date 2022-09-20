@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d2cdf6c981614341aa40fdb333902af1" Name="Diagram1">
+        <EntityTypeShape EntityType="SalonModel.General_User" Width="1.5" PointX="0.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalonModel.Salon_Owner" Width="1.5" PointX="4.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalonModel.Book" Width="1.5" PointX="1.625" PointY="2.625" />
+        <EntityTypeShape EntityType="SalonModel.sysdiagram" Width="1.5" PointX="4.375" PointY="4.75" />
+        <AssociationConnector Association="SalonModel.FK_Book_General_User" />
+        <AssociationConnector Association="SalonModel.FK_Book_Salon_Owner" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

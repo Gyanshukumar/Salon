@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Salon_and_Spa.Salon_Owner>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index |</h2>
+@Html.ActionLink("History","History","Books") |
+@Html.ActionLink("Upcoming Booking", "UpcomingBooking","Books")
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name_Of_The_Salon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone_Number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name_Of_The_Salon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone_Number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+           
+                
+                @Html.ActionLink("Book", "Booking", new { id = item.CorporateId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.CorporateId }) |
+           
+        </td>
+    </tr>
+}
+
+</table>

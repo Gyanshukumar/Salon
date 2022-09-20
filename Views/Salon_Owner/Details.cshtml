@@ -1,0 +1,60 @@
+﻿@model Salon_and_Spa.Salon_Owner
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Salon_Owner</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name_Of_The_Salon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name_Of_The_Salon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone_Number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone_Number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("Back to List", "Index")
+</p>

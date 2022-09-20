@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SalonModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="General_User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Books" Relationship="SalonModel.FK_Book_General_User" FromRole="General_User" ToRole="Book" />
+  </EntityType>
+  <EntityType Name="Salon_Owner">
+    <Key>
+      <PropertyRef Name="CorporateId" />
+    </Key>
+    <Property Name="CorporateId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name_Of_The_Salon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_Number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int32" />
+    <NavigationProperty Name="Books" Relationship="SalonModel.FK_Book_Salon_Owner" FromRole="Salon_Owner" ToRole="Book" />
+  </EntityType>
+  <EntityContainer Name="SalonEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="General_User" EntityType="Self.General_User" />
+    <EntitySet Name="Salon_Owner" EntityType="Self.Salon_Owner" />
+    <EntitySet Name="Books" EntityType="SalonModel.Book" />
+    <EntitySet Name="sysdiagrams" EntityType="SalonModel.sysdiagram" />
+    <AssociationSet Name="FK_Book_General_User" Association="SalonModel.FK_Book_General_User">
+      <End Role="General_User" EntitySet="General_User" />
+      <End Role="Book" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Book_Salon_Owner" Association="SalonModel.FK_Book_Salon_Owner">
+      <End Role="Salon_Owner" EntitySet="Salon_Owner" />
+      <End Role="Book" EntitySet="Books" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="CorporateId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Time" Type="Time" Precision="7" />
+    <NavigationProperty Name="General_User" Relationship="SalonModel.FK_Book_General_User" FromRole="Book" ToRole="General_User" />
+    <NavigationProperty Name="Salon_Owner" Relationship="SalonModel.FK_Book_Salon_Owner" FromRole="Book" ToRole="Salon_Owner" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Book_General_User">
+    <End Type="SalonModel.General_User" Role="General_User" Multiplicity="0..1" />
+    <End Type="SalonModel.Book" Role="Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="General_User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Book_Salon_Owner">
+    <End Type="SalonModel.Salon_Owner" Role="Salon_Owner" Multiplicity="0..1" />
+    <End Type="SalonModel.Book" Role="Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Salon_Owner">
+        <PropertyRef Name="CorporateId" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="CorporateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
